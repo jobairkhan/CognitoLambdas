@@ -6,7 +6,7 @@ This repository contains 4 sample lambdas to demonstrte the cognito workflows.
 
 1. User Migration
 1. Custom Challange
-  1. Define auth challenge
-  1. Create auth challenge
-  1. Verify auth challenge response
+    1. Define auth challenge
+    1. Create auth challenge
+    1. Verify auth challenge response
   
