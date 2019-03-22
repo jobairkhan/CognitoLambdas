@@ -16,7 +16,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{64D6C039-136D-4D96-ADEF-5AA22242871B}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{8605DFC0-0B3E-48C3-A310-26E524637E63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aws-cognito-desktop-client", "aws-cognito-desktop-client\aws-cognito-desktop-client.csproj", "{A056298E-0323-42CA-BC1C-C5696A518EE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +45,10 @@ Global
 		{AD2C8CBD-6007-4537-9356-EFC3B0706C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD2C8CBD-6007-4537-9356-EFC3B0706C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD2C8CBD-6007-4537-9356-EFC3B0706C92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A056298E-0323-42CA-BC1C-C5696A518EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A056298E-0323-42CA-BC1C-C5696A518EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A056298E-0323-42CA-BC1C-C5696A518EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A056298E-0323-42CA-BC1C-C5696A518EE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +57,8 @@ Global
 		{6E08BBF9-5361-4097-B90F-1286138CBC7E} = {09A643C3-725F-411B-BB13-DE6064FE0E3A}
 		{CA929009-F7C5-469B-9902-8DC585D623FD} = {09A643C3-725F-411B-BB13-DE6064FE0E3A}
 		{AD2C8CBD-6007-4537-9356-EFC3B0706C92} = {09A643C3-725F-411B-BB13-DE6064FE0E3A}
+		{8605DFC0-0B3E-48C3-A310-26E524637E63} = {09A643C3-725F-411B-BB13-DE6064FE0E3A}
+		{A056298E-0323-42CA-BC1C-C5696A518EE5} = {8605DFC0-0B3E-48C3-A310-26E524637E63}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C09808C-5E6E-4D3B-9D50-7CC5D073734D}
