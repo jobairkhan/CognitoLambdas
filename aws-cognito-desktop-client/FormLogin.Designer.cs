@@ -76,7 +76,7 @@
             this.buttonSignIn.TabIndex = 7;
             this.buttonSignIn.Text = "Sign In";
             this.buttonSignIn.UseVisualStyleBackColor = true;
-            this.buttonSignIn.Click += new System.EventHandler(this.buttonSignIn_Click);
+            this.buttonSignIn.Click += new System.EventHandler(this.buttonSignIn_ClickAsync);
             // 
             // FormLogin
             // 
